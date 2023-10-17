@@ -187,17 +187,59 @@ a {
 /* ############################################### */
 
 
+.second {
+    padding-bottom: 4.5rem;
+}
+
 .second * {
     /* padding: 1px 12%; */
     color: black;
+
 }
 
+.popular {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.popp {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.other-image {
+    width: 100%;
+    
+
+}
+
+.second1 {
+    width: 100vw;
+    padding: 1px 12%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+}
+
+.cardds {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
 
 
 .them {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    gap: 4rem;
 }
 
 .other1 {
@@ -208,7 +250,149 @@ a {
 }
 
 .min {
-    width:
     display: flex;
     justify-content: space-between;
+    gap: 3rem;
+    color: #C271FF;
+}
+
+.min p {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.philip {
+    font-weight: bold;
+    color: #C271FF;
+}
+
+
+/* ############################################# */
+/* ############################################# */
+/* ############################################# */
+/* ############################################# */
+/* ############################################# */
+
+
+.third {
+    width: 100vw;
+    height: 55vh;
+    padding: 2px 12%;
+    background-color: #071629;
+}
+
+.member {
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.free {
+    color: #C271FF;
+}
+
+.logoss {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.logo1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo1 p {
+    text-align: center;
+}
+
+.loreme {
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+
+/* ################################################### */
+/* ################################################### */
+/* ################################################### */
+/* ################################################### */
+/* ################################################### */
+
+
+.forth {
+    color: black;
+    width: 100vw;
+    height: 87vh;
+    padding: 1px 12%;
+    /* background-color: #C271FF; */
+}
+
+.forth * {
+    color: black;
+}
+
+.faq {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.faqs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+
+}
+
+
+.faq1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ipsum {
+    font-size: 1rem;
+    color: rgb(78, 78, 78);
+}
+
+.how {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+
+/* ################################################################## */
+/* ################################################################## */
+/* ################################################################## */
+/* ################################################################## */
+/* ################################################################## */
+/* ################################################################## */
+
+
+.footer {
+    width: 100vw;
+    height: 35vh;
+    padding: 1px 12%;
+    background-color: #071629;
+}
+
+.futu {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    text-align: center;
+    color: rgb(158, 158, 158);
+    margin-top: 4rem;
 }
